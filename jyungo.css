@@ -1,0 +1,53 @@
+table {
+    background-color: white;
+    border: solid black 2px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
+
+td {
+    border: solid black 2px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    vertical-align: bottom;
+}
+
+#white_piece_table {
+    position: absolute;
+    top: 283px;
+    left: 340px;
+}
+
+#black_piece_table {
+    position: absolute;
+    top: 91px;
+    left: 340px;
+}
+
+#black_piece_table td{
+    position: relative;
+}
+
+#white_piece_table td{
+    position: relative;
+}
+
+#black_piece_table p{
+    position: absolute;
+    top: 28px;
+    left:50px;
+}
+
+#white_piece_table p{
+    position: absolute;
+    top: 28px;
+    left:50px;
+}
